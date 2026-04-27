@@ -1,16 +1,94 @@
-# React + Vite
+#🎓 Silent Class
+Anonymous Feedback System for College Lectures
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Silent Class is a web-based platform that enables students to share honest, anonymous feedback about lectures and teaching quality. It eliminates social pressure and fear of judgment, allowing institutions to make data-driven improvements in education.
 
-Currently, two official plugins are available:
+##🚀 Features
+📝 Anonymous Feedback Submission
+No login required
+No personal data collected
+Per-lecture and per-teacher feedback
+📊 Admin Dashboard
+Total reviews and sentiment metrics
+Interactive donut chart visualization
+KPI cards (Positive, Neutral, Negative)
+🔍 Search & Filter Reviews
+Filter by sentiment
+Keyword-based search
+Chronological feedback list
+🤖 AI-Powered Sentiment Analysis
+Uses LLM (Claude API)
+Automatically classifies feedback
+Handles nuanced and natural language
+🌗 Dark/Light Mode
+Accessible and mobile-friendly UI
+🏗️ System Architecture
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Silent Class follows a Single Page Application (SPA) architecture with two main modules:
 
-## React Compiler
+Student Interface
+Select teacher and lecture
+Submit anonymous feedback
+Admin Panel
+Secure login
+View analytics & insights
+Manage and export feedback
+🛠️ Tech Stack
+Category	Technology Used
+Frontend	React.js
+Styling	Tailwind CSS
+Charts	Recharts / Chart.js
+Storage	localStorage / Firebase
+AI Analysis	Claude API (Anthropic)
+Authentication	Custom Admin Credentials
+Platform	Web (Mobile-first)
+⚙️ How It Works
+Student submits feedback (anonymous)
+Feedback is sent to AI model
+AI classifies sentiment:
+Positive
+Neutral
+Negative
+Data is stored and visualized in dashboard
+Admin analyzes trends and insights
+📸 Screens (From Report)
+📱 Student Feedback Form
+🔐 Admin Login
+📊 Dashboard with Sentiment Chart
+📋 Review List with Filters
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+(Refer to project report screenshots for UI visuals)
 
-## Expanding the ESLint configuration
+🎯 Key Advantages
+✅ Encourages honest student feedback
+✅ Removes fear of judgment
+✅ AI reduces manual effort
+✅ Real-time insights for educators
+✅ Per-lecture granularity
+🔮 Future Enhancements
+📈 Teacher-wise trend analysis
+🔔 Real-time alerts for negative feedback spikes
+🌐 Multi-language support
+🔗 LMS Integration (Moodle, Canvas)
+☁️ Cloud-based database (Firestore / Supabase)
+📚 References
+Research on anonymous feedback systems
+Sentiment analysis in education
+Claude API documentation
+(Detailed references available in project report)
+👨‍💻 Contributors
+Riddhi Motwani
+Yash Sukheja
+Ushma Sukhwani
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Guided by: Dr. Priya R L
+
+📌 License
+
+This project is for academic and research purposes.
+
+If you want, I can also:
+
+Add installation steps (npm, setup, env keys)
+Customize it for GitHub portfolio (more impressive)
+Or make a short version for hackathon/demo
